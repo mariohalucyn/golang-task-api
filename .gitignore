@@ -1,0 +1,35 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Go coverage tool output
+*.out
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Environment and key files
+.env
+*.pem
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# macOS and system files
+.DS_Store
+Thumbs.db
+
+# Go modules cache (should not be committed)
+go.sum
+

@@ -1,0 +1,5 @@
+GENERATE PRIVATE ECDSA DER FORMAT KEY
+openssl ecparam -name prime256v1 -genkey -outform der -out ec-priv-key.pem
+
+GENERATE PUBLIC ECDSA DER FORMAT KEY
+openssl ec -in ec-priv-key.pem -pubout > ec-pub-key.pem
