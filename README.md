@@ -1,6 +1,4 @@
-# Todo App
-
-This is a simple Todo application built with Go, Gorilla Mux, GORM, and PostgreSQL. The application allows users to sign up, log in, create, update, and delete todo items. It also includes email verification and JWT-based authentication.
+Simple Todo application built with Go, Gorilla Mux, GORM, and PostgreSQL. The application allows users to sign up, log in, create, update, and delete todo items. It also includes email verification and JWT-based authentication.
 
 ## Features
 
